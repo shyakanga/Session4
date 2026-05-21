@@ -1,0 +1,10 @@
+#!/bin/sh
+
+mkdir -p "./home/session4/directory1"
+
+if [ -d "./home/session4/directory1" ]; then
+   echo "directory created"
+else
+    echo "directory not created"
+    exit 1
+fi
